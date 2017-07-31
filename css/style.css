@@ -386,6 +386,7 @@ body{
   margin-bottom:10%;
   margin-right:5%;
   position: absolute;
+  padding-right: 10%;
 }
 
 
@@ -746,6 +747,9 @@ body{
     width:150px;
     height:auto;
   }
+  .expand1.open{
+    margin-left: 7%;
+  }
   .expand2.open{
     margin-right: 7%;
   }
@@ -892,6 +896,9 @@ body{
   .expand1{
     z-index:99;
   }
+  .expand1.open{
+    margin-left: 7%;
+  }
   .contlog{
     width:150px;
     height:auto;
@@ -947,9 +954,9 @@ body{
   .icon-wrap1.left{
     position:relative;
     overflow:visible;
-    top:0vh;
+    top:4vh;
     margin-right: 80%;
-    margin-left: -125px;
+    margin-left: -75px;
     /*transition: 0.5s;*/
     /*transition-delay: 1.0s;*/
   }
