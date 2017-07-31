@@ -1,0 +1,974 @@
+
+/* Flat Earth Flat Web Page Style Sheet */
+/* Property of Flat Earth 2017 */
+
+/* Basic / General Styles are at the Top */
+body{
+  font-family: 'Lato', sans-serif;
+  background-color: #66BB6A;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#logotop{
+  margin-top:0px;
+  margin-bottom: 5vh;
+  transition: 1.5s;
+
+}
+
+#logotop.hide{
+  margin-bottom: 0%;
+ margin-top: -400px;
+ transition: 1.5s;
+}
+#felog{
+  width:400px;
+  height:auto;
+}
+
+.contlog{
+  width:250px;
+  height:auto;
+}
+.projlog{
+  width:250px;
+  height:auto;
+}
+
+.anchor{
+
+}
+
+.noScroll-x{
+  overflow-x: hidden;
+}
+.noScroll-y{
+  overflow-y: hidden;
+}
+
+.container div{
+  width:80%;
+  margin: auto;
+}
+
+.center{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  /*transition: 0.5s;*/
+}
+
+.center-align{
+  text-align: center;
+}
+
+.valign-wrap{
+  position: relative;
+}
+
+.centered{
+    display:inline-block;
+    position: absolute; /* or absolute */
+    top: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.responsive-img{
+  width:100%;
+  height:auto;
+}
+
+
+/* Grid Layout Strtucture */
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+
+}
+
+
+.tcenter{
+  margin-top: 50%;
+  margin-bottom:50%;
+}
+
+
+
+/*Card Related Stuff*/
+
+.card-container{
+  display:inline-block;
+  vertical-align: middle;
+  position: relative;
+  height:0%;
+  /*transition:0.25s;*/
+  /*transition-delay:0.005s;*/
+}
+
+.card-container.open{
+  display:inline-block;
+  vertical-align: middle;
+  position: relative;
+  height:auto;
+  /*transition:0.25s;*/
+  /*transition-delay:0.005s;*/
+}
+
+
+
+.card{
+  vertical-align: middle;
+  width:25%;
+  height:50%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  display:inline-block;
+  background-color: #f1f1f1;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 7.5px;
+  border-color: black;
+  opacity: 0;
+  overflow:hidden;
+  transition:0.25s;
+  transition-delay:0.05s;
+}
+.card.open{
+  vertical-align: middle;
+  width:29%;
+  height:auto;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 5%;
+  margin-bottom: auto;
+  display:inline-block;
+  background-color: #f1f1f1;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 7.5px;
+  border-color: black;
+  opacity: 1.0;
+  overflow:hidden;
+  transition:1.25s;
+  transition-delay:1.6s;
+}
+.card.open:nth-child(1){
+  transition:0.5s;
+  transition-delay:1.3s;
+}
+.card.open:nth-child(2){
+  transition:0.5s;
+  transition-delay:1.4s;
+}
+.card.open:nth-child(3){
+  transition:0.5s;
+  transition-delay:1.5s;
+}
+
+
+.card-img{
+  width:100%;
+  height:auto;
+  margin-left: -15px;
+  margin-right: -15px;
+  margin-top: -10%;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 7.5px;
+  border-color: black;
+  overflow-x:hidden;
+}
+
+.card-foot{
+  color:black;
+  padding: 2.5%;
+}
+/*Card Related Stuff*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTACT RElated Stuff */
+.mail{
+  display: inline-block;
+  position: relative;
+  margin-right: 0%;
+  width:0%;
+  height:0%;
+  transition: 0.25s;
+  transition-delay:0.15s;
+}
+.people{
+  display: inline-block;
+  position: relative;
+  width:0%;
+  height:0%;
+  transition: 0.25s;
+  transition-delay:0.25s;
+}
+.mail.open{
+  display: inline-block;
+  position: relative;
+  margin-right: 0%;
+  width:25%;
+  height:auto;
+  transition: 0.5s;
+  transition-delay:1s;
+}
+.mail h2{
+  font-size: 0em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  transition: 0.5s;
+  transition-delay:0.1s;
+}
+.mail.open h2{
+  font-size: 2.5em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0.5em;
+  transition: 0.5s;
+  transition-delay:1s;
+}
+.mail h3{
+  font-size: 0em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  transition: 0.5s;
+  transition-delay:0.1s;
+}
+.mail.open h3{
+  font-size: 1.5em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 1em;
+  transition: 0.5s;
+  transition-delay:1s;
+}
+.people.open{
+  display: inline-block;
+  position: relative;
+  width:60%;
+  height:auto;
+  transition: 0.5s;
+  transition-delay:1s;
+}
+.people h2{
+  font-size: 0em;
+  transition: 0.5s;
+  transition-delay:0.1s;
+}
+.people.open h2{
+  font-size: 2em;
+  transition: 0.5s;
+  transition-delay:1s;
+}
+/*.people.open.p1:nth-child(1){
+  transition: 0.5s;
+  transition-delay:1s;
+}
+.people.open.p1:nth-child(2){
+  transition: 0.5s;
+  transition-delay:1.5s;
+}
+.people.open.p1:nth-child(3){
+  transition: 0.5s;
+  transition-delay:2s;
+}*/
+
+.hidden-img{
+  position: relative;
+  width:0%;
+  height:auto;
+  transition: 2s;
+  transition-delay:0.1s;
+}
+.hidden-img.open{
+  position: relative;
+  width:100%;
+  height:auto;
+  transition: 1s;
+  transition-delay:1s;
+}
+.hidden-img-c{
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  width:0%;
+  height:0%;
+  transition: 1s;
+  transition-delay:0.1s;
+}
+.hidden-img-c.open{
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  width:110%;
+  height:auto;
+  transition: 1s;
+  transition-delay:1s;
+}
+.hidden-img-c.open:nth-child(1){
+  transition:0.5s;
+  transition-delay:1.25s;
+}
+.hidden-img-c.open:nth-child(2){
+  transition:0.75s;
+  transition-delay:1.5s;
+}
+.hidden-img-c.open:nth-child(3){
+  transition:1s;
+  transition-delay:1.75s;
+}
+
+.p1{
+  display: inline-block;
+  margin-left: 1%;
+  margin-right: 1%;
+  width:30%;
+  height: auto;
+}
+
+
+.containus{
+  margin-top:2.5%;
+  margin-bottom:10%;
+  margin-right:0%;
+  position: absolute;
+}
+.containus.open{
+  margin-top:2.5%;
+  margin-bottom:10%;
+  margin-right:5%;
+  position: absolute;
+}
+
+
+/* CONTACT RElated Stuff */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Content Specific Styles */
+
+.block{
+  display:inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.5s;
+}
+
+.block.open{
+  display:inline-block;
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 1.5s;
+}
+
+.block.unblock{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.5s;
+}
+.block1{
+  display:inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.5s;
+}
+.block1.unblock1{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.5s;
+}
+
+
+
+
+/* Here is the content arranger */
+.col-5Switch1{
+  width: 41.66%;
+  /*transition: 0.5s;*/
+  /*transition-delay: 0.5s;*/
+}
+.col-5Switch1.closed{
+  width: 9%;
+  /*transition: 0.5s;*/
+  /*transition-delay: 0.5s;*/
+}
+.col-5Switch1.full{
+  width: 80%;
+  /*margin-left: 10%;*/
+  /*transition: 0.5s;*/
+  /*transition-delay: 1.0s;*/
+}
+
+.col-5Switch2{
+  width: 41.66%;
+  /*transition: 0.5s;*/
+  /*transition-delay: 0.5s;*/
+}
+.col-5Switch2.closed{
+  width: 9%;
+  /*transition: 0.5s;*/
+  /*transition-delay: 0.5s;*/
+}
+.col-5Switch2.full{
+  width: 80%;
+  /*margin-right: 10%;*/
+  /*transition:1.0s;*/
+  /*transition-delay: 1.0s;*/
+
+}
+
+/*here is the content arranger */
+
+/* below arranges the icons and box to the right positions */
+.cont-pos{
+  width:100%;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  /*transition:1.0s;*/
+}
+.cont-pos2{
+  width:100%;
+  /*margin-left: auto;
+  margin-right: auto;*/
+  float:right;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  /*transition:1.0s;*/
+}
+
+.icon-wrap1{
+  position:relative;
+  overflow:visible;
+  top:0vh;
+  margin-left: -100px;
+  left:0;
+  margin-right: auto;
+  /*transition: 0.5s;*/
+  /*transition-delay: 1.0s;*/
+}
+.icon-wrap1.left{
+  position:relative;
+  overflow:visible;
+  top:0vh;
+  left:0;
+  margin-right: 80%;
+  margin-left: -125px;
+  /*transition: 0.5s;*/
+  /*transition-delay: 1.0s;*/
+}
+
+.icon-wrap2{
+  position:relative;
+  overflow:visible;
+  top:4vh;
+  right:0;
+  margin-left: auto;
+  margin-right: 150px;
+  /*transition: 0.25s;*/
+  /*transition-delay: 0.5s;*/
+}
+.icon-wrap2.right{
+  margin-right: 0px;
+  top:0vh;
+  right:-5vw;
+  margin-left: 80%;
+  /*transition: 0.5s;*/
+  /*transition-delay: 1.0s;*/
+}
+
+.poser{
+  position: absolute;
+  display:flex;
+  bottom:125px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  /*transition: 0.5s;*/
+}
+.poser2{
+  position: absolute;
+  display:flex;
+  bottom:125px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  /*transition: 0.5s;*/
+}
+
+.poser2.open{
+  position: absolute;
+  bottom:-450px;
+  margin-right: auto;
+  margin-right: auto;
+  text-align: right;
+  /*transition: 0.5s;*/
+}
+/* Above arranges the icons and box to the right positions */
+
+
+/* BELOW IS THE COLLAPSEABLE CONTAINERS */
+.expand1{
+  background-color:#CFD8DC;
+  height:0vh;
+  width: 0%;
+  border-style: solid;
+  border-width: 0px;
+  border-color: black;
+  transition: 0.5s;
+}
+.expand1.center{
+  background-color:#CFD8DC;
+  height:1vh;
+  width: 0%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.5s;
+}
+
+.expand1.open{
+  background-color:#CFD8DC;
+  height:75vh;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 7.5px;
+  border-color: black;
+  animation-name: leftAnim;
+  animation-duration: 1.5s;
+  /*animation-delay: 0.5s;*/
+  /*transition: 0.5s;*/
+}
+@keyframes leftAnim{
+  0% { height: 1vh; width:15%;}
+  50% { height: 75vh; width:15%}
+  100% { height: 75vh; width:90%}
+}
+
+.expand2{
+  background-color:#CFD8DC;
+  height:0vh;
+  width: 0%;
+  border-style: solid;
+  border-width: 0px;
+  border-color: black;
+  transition: 0.5s;
+}
+.expand2.center{
+  background-color:#CFD8DC;
+  height:1vh;
+  width: 1%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 0px;
+  border-color: black;
+  transition: 0.5s;
+}
+
+.expand2.open{
+  background-color:#CFD8DC;
+  height:75vh;
+  width: 90%;
+  float:right;
+  margin-left: 5%;
+  margin-right: 125px;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 7.5px;
+  border-color: black;
+  animation-name: rightAnim;
+  animation-duration: 1.5s;
+  /*transition: width 0.5s, height 1.0s;*/
+}
+@keyframes rightAnim{
+  0% { height: 1vh; width:15%;}
+  50% { height: 75vh; width:15% }
+  100% { height: 75vh; width:90% }
+}
+/* ABOVE IS THE COLLAPSEABLE CONTAINERS */
+
+
+
+/* Below is the specific styles for top and bottom of Icons */
+/* Left Side */
+.btm{
+  width:100%;
+  height:auto;
+  position:absolute;
+  margin-left: auto;
+  margin-right: auto;
+  bottom:-2.5vh;
+  z-index:-1;
+  transition: 0.5s;
+}
+
+.btm.open{
+  width:100%;
+  height:auto;
+  position:inherit;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: -75vh;
+  transition: 0.5s;
+}
+
+/* Right Side */
+.btm1{
+  width:100%;
+  height:auto;
+  position:absolute;
+  margin-left: auto;
+  margin-right: auto;
+  bottom:-2.5vh;
+  z-index:-1;
+  transition: 0.5s;
+}
+
+.btm1.open{
+  width:100%;
+  height:auto;
+  position:absolute;
+  margin-left: auto;
+  margin-right: 250px;
+  bottom:-75vh;
+  transition: 0.5s;
+}
+
+/* Top Applies to both sides, parent container controls its absolute position */
+.tp{
+  width:100%;
+  height:auto;
+  position:absolute;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  transition: 0.5s;
+}
+.tp2{
+  width:100%;
+  height:auto;
+  position:absolute;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  transition: 0.5s;
+}
+/* Above arranges the icons and box to the right positions */
+
+
+
+
+
+.visible-mobile {
+  display: none !important;
+}
+
+/*MOBILE SPECIFICS */
+
+@media only screen and (max-width : 850px){
+  .contlog{
+    width:150px;
+    height:auto;
+  }
+  .projlog{
+    width:150px;
+    height:auto;
+  }
+  .expand2.open{
+    margin-right: 7%;
+  }
+  /*.card-foot{
+    color:black;
+    padding: 0.0%;
+  }
+  .hidden-img.open{
+      margin-left: -50%;
+  }
+  .people.open{
+    margin-left:-10.0%;
+    z-index:100;
+  }*/
+  #logotop{
+    margin-top:0px;
+    margin-bottom: 5vh;
+    transition: 1.5s;
+  }
+  #logotop.hide{
+   margin-bottom: 0%;
+   margin-top: -200px;
+   transition: 1.5s;
+  }
+  #felog{
+    width:200px;
+    height:auto;
+  }
+  .btm{
+    bottom:-1.5vh;
+  }
+  .btm1{
+    bottom:-1.5vh;
+  }
+
+  .containus{
+    margin-top:2.5%;
+    margin-bottom:10%;
+    margin-right:5%;
+    position: relative;
+  }
+  .people.open{
+    width:70%;
+    height:30%;
+    display: inline-block;
+    position: relative;
+    margin-left: -10%;
+  }
+  .mail.open{
+    display: inline-block;
+    position: relative;
+    width:70%;
+    height:30%;
+  }
+  .mail.open h2{
+    font-size: 1.5em;
+  }
+  .people.open h2{
+    font-size: 1.5em;
+  }
+  .mail.open h3{
+    font-size: 1.0em;
+  }
+  .hidden-img.open{
+    position: relative;
+    width:60%;
+    height:auto;
+    margin-left: -45%;
+  }
+
+  .card-container.open{
+    height:90vh;
+  }
+  .card-img.open{
+    height:auto;
+    width:200%;
+    margin:auto;
+    overflow: hidden;
+
+  }
+  .card.open{
+    width:75%;
+    height: auto;
+    margin-top: 7%;
+    overflow: visible;
+  }
+
+  .visible-mobile {
+    display: inline-block !important;
+  }
+
+  .hidden-mobile {
+    display: none !important;
+  }
+  .contlog{
+    width:150px;
+    height:auto;
+  }
+  .projlog{
+    width:150px;
+    height:auto;
+  }
+
+  .card-foot{
+    color:black;
+    padding: 0.0%;
+  }
+  .icon-wrap2{
+    position:relative;
+    overflow:visible;
+    top:4vh;
+    right:0;
+    margin-left: auto;
+    margin-right: 75px;
+    /*transition: 0.25s;*/
+    /*transition-delay: 0.5s;*/
+  }
+
+  .icon-wrap2.right{
+    margin-right: -75px;
+    top:5vh;
+    margin-left: 80%;
+    right:-7.5%;
+    /*transition: 0.5s;*/
+    /*transition-delay: 1.0s;*/
+  }
+}
+
+@media only screen and (max-width : 600px){
+  .card.open{
+    width:90%;
+    height: auto;
+    margin-top: 10%;
+    overflow: visible;
+  }
+  .expand2{
+    z-index:99;
+    margin-right: 0%;
+  }
+  .expand2.open{
+    z-index:99;
+    margin-right: 4%;
+  }
+  .expand1{
+    z-index:99;
+  }
+  .contlog{
+    width:150px;
+    height:auto;
+  }
+  .projlog{
+    width:150px;
+    height:auto;
+  }
+  .card-foot{
+    color:black;
+    padding: 0.0%;
+  }
+  .hidden-img.open{
+      margin-left: -50%;
+  }
+  .people.open{
+    margin-left:-10.0%;
+    z-index:100;
+  }
+  #logotop{
+    margin-top:0px;
+    margin-bottom: 5vh;
+    transition: 1.5s;
+  }
+  #logotop.hide{
+   margin-bottom: 0%;
+   margin-top: -200px;
+   transition: 1.5s;
+  }
+  #felog{
+    width:200px;
+    height:auto;
+  }
+  .btm{
+    bottom:-1.5vh;
+  }
+  .btm1{
+    bottom:-1.5vh;
+  }
+  /*.block{
+    display: block;
+    margin-top: 25%;
+  }*/
+  .icon-wrap1{
+    position:relative;
+    overflow:visible;
+    top:0vh;
+    margin-left: -75px;
+    margin-right: auto;
+    /*transition: 0.5s;*/
+    /*transition-delay: 1.0s;*/
+  }
+  .icon-wrap1.left{
+    position:relative;
+    overflow:visible;
+    top:0vh;
+    margin-right: 80%;
+    margin-left: -125px;
+    /*transition: 0.5s;*/
+    /*transition-delay: 1.0s;*/
+  }
+
+  .icon-wrap2{
+    position:relative;
+    overflow:visible;
+    top:4vh;
+    margin-left: auto;
+    margin-right: 75px;
+    /*transition: 0.25s;*/
+    /*transition-delay: 0.5s;*/
+  }
+  .icon-wrap2.right{
+    margin-right: 75px;
+    top:5vh;
+    margin-left: 80%;
+    right:0%;
+    /*transition: 0.5s;*/
+    /*transition-delay: 1.0s;*/
+  }
+}
