@@ -13,14 +13,13 @@ body{
 #logotop{
   margin-top:0px;
   margin-bottom: 5vh;
-  transition: 1.5s;
-
+  transition: 0.5s;
 }
 
 #logotop.hide{
   margin-bottom: 0%;
  margin-top: -400px;
- transition: 1.5s;
+ transition: 0.5s;
 }
 #felog{
   width:400px;
@@ -767,12 +766,12 @@ body{
   #logotop{
     margin-top:0px;
     margin-bottom: 5vh;
-    transition: 1.5s;
+    transition: 0.5s;
   }
   #logotop.hide{
    margin-bottom: 0%;
    margin-top: -200px;
-   transition: 1.5s;
+   transition: 0.5s;
   }
   #felog{
     width:200px;
@@ -921,12 +920,12 @@ body{
   #logotop{
     margin-top:0px;
     margin-bottom: 5vh;
-    transition: 1.5s;
+    transition: 0.5s;
   }
   #logotop.hide{
    margin-bottom: 0%;
    margin-top: -200px;
-   transition: 1.5s;
+   transition: 0.5s;
   }
   #felog{
     width:200px;
